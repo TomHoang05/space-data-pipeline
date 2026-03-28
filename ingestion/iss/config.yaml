@@ -1,0 +1,15 @@
+api:
+  url: "http://api.open-notify.org/iss-now.json"
+
+loop:
+  count: 5
+  delay: 10
+
+logging:
+  path: 'logs/iss/iss_tracking.log'
+
+schema:
+  iss_position: 'schema/iss/iss_position.sql'
+
+raw:
+  path: 'raw/iss'
